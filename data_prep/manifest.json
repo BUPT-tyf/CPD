@@ -1,0 +1,88 @@
+{
+  "AA/DetectRLX_english_test_AA_all.jsonl": {
+    "group": "rewriting",
+    "rows": 24000,
+    "categories": {
+      "AA": 18000,
+      "H": 6000
+    },
+    "sha256": "c45997e558ea397f418ba30d3472d46479e094b5e3a6f1aadd76bad14b1f26d9"
+  },
+  "AA/DetectRLX_english_test_AA_condensing.jsonl": {
+    "group": "rewriting",
+    "rows": 12000,
+    "categories": {
+      "AA": 6000,
+      "H": 6000
+    },
+    "sha256": "f630306ba29d8c766cd492e336f52e83cbed8d00198028f13803739c94e8ecf0"
+  },
+  "AA/DetectRLX_english_test_AA_expanding.jsonl": {
+    "group": "rewriting",
+    "rows": 12000,
+    "categories": {
+      "AA": 6000,
+      "H": 6000
+    },
+    "sha256": "ff02148b464e5a25a92a7030bc72a2b7557565818506dcc690853fce0e971bcc"
+  },
+  "AA/DetectRLX_english_test_AA_polishing.jsonl": {
+    "group": "rewriting",
+    "rows": 12000,
+    "categories": {
+      "AA": 6000,
+      "H": 6000
+    },
+    "sha256": "8b917c9e30a2da80b56689c2326af7e3cc909e6c7f15196e02973167bd96f18d"
+  },
+  "DetectRLX_english_test_general.jsonl": {
+    "group": "detectrlx",
+    "rows": 12000,
+    "categories": {
+      "A": 6000,
+      "H": 6000
+    },
+    "sha256": "fe3dba718461c9f601e798dc3636c5002d9990cb6147f029b83f3dcfd2a67360"
+  },
+  "GEN_dev.jsonl": {
+    "group": "gen",
+    "rows": 4000,
+    "categories": {
+      "A": 2000,
+      "H": 2000
+    },
+    "sha256": "d3b0593a9ae7489df2082f29ec30f9e61a3d031712be932b820fe7cf95a28a45"
+  },
+  "GEN_edit_test.jsonl": {
+    "group": "gen-edit",
+    "rows": 4680,
+    "categories": {
+      "A": 936,
+      "H": 936,
+      "HA_20_40": 936,
+      "HA_40_60": 936,
+      "HA_60_80": 936
+    },
+    "sha256": "42d86399572e2b35895403e7bed2c51cc221993864ce18efdea1727d66e65453"
+  },
+  "GEN_test.jsonl": {
+    "group": "gen",
+    "rows": 4000,
+    "categories": {
+      "A": 2000,
+      "H": 2000
+    },
+    "sha256": "e0d15e1976a88e2a1f7176b71c467ee22354975b66d4a4335d4c108c443251cc"
+  },
+  "HART_test.jsonl": {
+    "group": "hart",
+    "rows": 8000,
+    "categories": {
+      "A": 2000,
+      "AH": 2000,
+      "H": 2000,
+      "HA": 2000
+    },
+    "sha256": "461680759c41adcabb29bbdde8cc51a9bf39e107713bf0ebda7aefa356f81fbd"
+  }
+}

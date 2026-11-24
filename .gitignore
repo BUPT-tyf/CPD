@@ -1,0 +1,28 @@
+# Local environments and editor files
+.venv/
+venv/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Experiment inputs, model weights and generated outputs
+/benchmark_2026/
+/models/
+/outputs/
+/score_cache/
+/marginal_cache/
+/raw_data/
+*.jsonl
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.parquet
+*_per_sample.csv
+*.log
